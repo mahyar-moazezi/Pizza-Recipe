@@ -1,0 +1,35 @@
+.card {
+  background-color: #f9f9f9;
+  width: 280px;
+  height: auto;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  margin: 10px;
+}
+.card img {
+  width: 120px;
+  height: 120px;
+}
+.cart-btn {
+  background-color: #05a500;
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.cart-btn a {
+  text-decoration: none;
+  color: white;
+}
+.price {
+  background-color: #e8e9ae;
+  padding: 5px 8px;
+  border-radius: 20px;
+}
+.price:hover {
+  transform: scaleY(1.2);
+}

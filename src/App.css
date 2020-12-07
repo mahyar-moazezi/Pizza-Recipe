@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  direction: ltr;
+  background-color: white;
+  width: 95%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 40px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+@media (max-width: 768px) {
+  .App {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+}

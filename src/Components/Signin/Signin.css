@@ -1,0 +1,25 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  width: 100%;
+}
+.form input {
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+  color: white;
+}
+.form input::placeholder {
+  color: rgb(226, 226, 226);
+}
+.form input[type="email"],
+.form input[type="password"] {
+  background-color: rgb(122, 122, 122);
+  padding: 10px 20px;
+}
+.form input[type="submit"] {
+  padding: 8px 20px;
+  background-color: #1783ff;
+}
