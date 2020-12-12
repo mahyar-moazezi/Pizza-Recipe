@@ -28,6 +28,7 @@ const App = (props) => {
               )}
             />
             <Route component={ErrorHandler} />
+            {/* 404 error Message */}
           </Switch>
         </div>
       </PizzaTypeProvider>
